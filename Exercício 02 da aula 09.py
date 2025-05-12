@@ -4,8 +4,8 @@ chute = 0
 while chute != numSecreto:
     chute = int(input("Digite um número: "))
     if chute > numSecreto:
-        print("Valor incorreto! O número  digitado é menor do que o número aleatório.")
+        print("Valor incorreto! O número  digitado é maior do que o número aleatório.")
     elif chute < numSecreto:
-        print("Valor incorreto! O número digitado é maior que do número aleatório.")
+        print("Valor incorreto! O número digitado é menor que do número aleatório.")
     else:
         print("Parabéns! Você encontrou o número aleatório!")
